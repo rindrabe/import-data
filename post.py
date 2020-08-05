@@ -57,7 +57,7 @@ logfilename = datetime.now().strftime('postlog__%Y-%m-%d_%H-%M.csv')
 
 i = 1
 total = len(filelist_tuples)
-print("total to be submitted:"+total)
+print("total to be submitted: ",total)
 for ft in filelist_tuples:
 	# if i == total:
 	# 	progress(i, total, status='...Posting...')
