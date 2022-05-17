@@ -2,8 +2,8 @@ import os
 import pandas as pd
 import math
 
-submissions = pd.read_csv('/Users/rindra/Desktop/TheWorldBank/GEMS/consolidated_portfolio/code_and_data/test_repeating_groups/kcpostlog.csv')
-path = "/Users/rindra/Desktop/TheWorldBank/GEMS/consolidated_portfolio/code_and_data/test_repeating_groups/tempfiles/"
+submissions = pd.read_csv('/.../kcpostlog.csv') #specify the path of your logfile
+path = "/.../tempfiles/" # Specify path of your tempfiles
 
 count = 0
 
