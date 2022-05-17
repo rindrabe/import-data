@@ -156,7 +156,9 @@ def _gen_multi_selects(parent_node, multi_selects):
         colname_el.text = " ".join(value)
 
 def _parse_group_data(groups, header, text):
+    print('LINE 159 ---> '+header)
     name, value = header.split('::')
+    # print('name = ' + name + ' | value = ' + value)
     if name not in groups:
             groups[name] = {}
     groups[name][value]=text
