@@ -53,7 +53,8 @@ filelist_tuples = [(f, LazyFile(f, 'rb')) for f in filelist]
 filelist_tuples = tuple(filelist_tuples)
 
 logdata = []
-logfilename = datetime.now().strftime('postlog__%Y-%m-%d_%H-%M.csv')
+# logfilename = datetime.now().strftime('postlog__%Y-%m-%d_%H-%M.csv')
+logfilename = 'postlog.csv'
 
 i = 1
 total = len(filelist_tuples)
@@ -100,4 +101,4 @@ print(' ****     FILES    **** ')
 print('  ***      ARE     ***  ')
 print('   ** SUCCESSFULLY **   ')
 print('    *     POSTED   *    ')
-print('    * ************ *     ')
+print('    * ************ *    ')
